@@ -112,7 +112,7 @@
       },
       success: function(response) {
         if (response.success) {
-          console.log(response.data.message);
+          // console.log(response.data.message);
           $('#message').val('');
           let chat = response.data.message;
           let html = `<div class="current-user-chat">

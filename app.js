@@ -53,7 +53,7 @@ usp.on("connection", async function (socket) {
       ],
     });
 
-    socket.emit("loadChats", { chat: chats });
+    socket.emit("loadChats", { chats: chats });
   });
 });
 
